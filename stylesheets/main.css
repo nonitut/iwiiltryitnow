@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Jost-Black" ;
+    src: url("../fonts/Jost-Black.ttf") format("truetype");
+    font-style: black;
+    font-weight: bolder;
+}
+
+
+p{
+    /* font-family: "JostItalicVariableFont.ttf"; */
+    font-family: 'Jost', sans-serif;
+    font-style: italic;
+}
+
+.moeono{
+    color: palevioletred;
+    /* color: pink; */
+}
+/* Селектор по классу */
+
+h1{
+ color: #ff8b17;
+ font-family: "Jost-Black";
+ font-style: black;
+ font-size: 36px;
+}
+/* Селектор по типу элемента */
+
+#dom{
+    font-size: 34px;
+}
+/* Селектор по идентификатору */
+
+ul li {
+    color: hotpink;
+    font-size: 36px;
+}
+/* Селектор потомков */
+/* 
+li:first-child {
+    font-weight: bold;
+} */
+/* Селектор первого и последнего элемента */
+
+/* nav > ul{
+    background-color: #e1e1e1;
+    border-radius: 10px;
+}
+Селектор дочерних элементов */
+
+a{
+   /* color: gold;  */
+   text-decoration: none;
+}
+
+a:hover{
+   color: cadetblue;
+}
+/* Селектор псевдоклассов */
+
+h2 + p {
+    font-weight: bold;
+    font-size: large;
+    color: #a6bafa;
+}
+
+.ciferki{
+    color: #ea7500;
+    background-color: #a6bafa;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.korobochka{
+    width: 95vw;
+    height: 250px;
+    background-color: thistle;
+    border-radius: 10px;
+}
+
+
+.content-container{
+    background-color: antiquewhite;
+    margin-top: 5%; /* внешний  */
+    padding-top: 2%; /* внутренний  */
+    padding-bottom: 2%  ;
+    padding-left: 2% ;
+}
+
+section{
+    background-color: #e1e1e1;
+}
+
+
+.section{
+    background-color: #ded0ff;
+}
+
